@@ -1,0 +1,40 @@
+import pyautogui
+import time
+
+pyautogui.PAUSE = 0.4
+
+pyautogui.press('win')
+pyautogui.write('Navegador')
+time.sleep(0.3)
+pyautogui.press('enter')
+#PASSO 2 - Pesquisar A na barra
+time.sleep(2)
+pyautogui.write('a')
+pyautogui.press('enter')
+time.sleep(3)#usadao para adormecer neste ponto por 6sec
+#PASSO 3 - Clickar nas barrinhas e entrar no meu e-mail
+pyautogui.click(x=1493, y=160)
+time.sleep(0.2)
+pyautogui.click(x=1505, y=363)
+time.sleep(4)
+pyautogui.click(x=1574, y=133)
+time.sleep(0.9)
+pyautogui.click(x=1402, y=326)
+time.sleep(0.3)
+pyautogui.click(x=259, y=16)
+time.sleep(0.3)
+pyautogui.click(x=132, y=187)
+time.sleep(2)
+pyautogui.click(x=1099, y=382)
+time.sleep(2)
+pyautogui.write('absouza409@gmail.com')
+time.sleep(0.9)
+pyautogui.press('enter')
+time.sleep(0.5)
+pyautogui.press('Tab')
+pyautogui.write('Uma carta de amor')
+pyautogui.press('Tab')
+pyautogui.write('Te amo meu amor, é so um teste')
+time.sleep(0.7)
+pyautogui.click(x=1043, y=840)
+#Bot de envio de E-mail
